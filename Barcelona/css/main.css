@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Rubik:400,500,700&display=swap');
+
+ 
+body{
+	width: 100%;
+}
+img{
+	max-width: 100%;
+}
+.mainContent, .mainContent *{
+	font-family: 'Rubik', sans-serif;
+}
+.mainContent{
+	overflow-x: hidden;
+}
+.topArea{
+	margin-top: 50px;
+	width: 100%;
+	max-width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	
+}
+.topArea > img{
+	max-height: 740px;
+	width: 100%;
+}
+.feefo{
+	position: absolute;
+	top: 30px;
+	right: 80px;
+}
+.sContainer{
+	width: 1140px;
+	margin: auto;
+}
+.topContent{
+	position: absolute;
+	left: 0;
+	right: 0;
+	color: #fff;
+}
+.topTitle{
+	font-size: 56px;
+	line-height: 62px;
+	max-width: 660px;
+	margin-top: 0;
+}
+.topText{
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 25px;
+	line-height: 1.4;
+}
+.mswButton{
+	min-width: 210px;
+	height: 58px;
+	line-height: 58px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 10px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+.mswButton:hover{
+	opacity: .9;
+	color: #fff;
+}
+.purpleBg{
+	background: #4f2d87;
+}
+.cyanBg{
+	background: #40d8c2;
+}
+.advantagesWrap{
+	margin: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.advImage img{
+	max-width: 55px;
+}
+.appPageTop .topAreaBg{
+	background-image: linear-gradient(131deg, #4f2d87 0%, #7542c9 100%);
+	min-height: 740px;
+	width: 100%;
+}
+.appPageTop .topText{
+	font-size: 18px;
+	line-height: 26px;
+	text-align: justify;
+	max-width: 540px;
+}
+.topAppCountDownForm{
+	margin-top: 70px;
+	max-width: 520px;
+}
+.topAppCountDownFormText{
+	font-size: 15px;
+	line-height: 26px;
+}
+.topAppForm{
+	
+	height: 64px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(75,33,144,0.22);
+	background-color: #ffffff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+.topAppFormInputContainer{
+	width: calc(100% - 230px);
+}
+.topAppFormInput{
+	width: 100%;
+	outline: none;
+	height: 54px;
+	border: none;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #9a9a9a;
+	background: #fff;
+}
+.topAppFormSubmitContainer{
+
+}
+.topAppFormSubmit{
+	border: none;
+	margin-right: 3px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.topAppFormSubmit:hover{
+	-webkit-box-shadow: 0px 10px 40px 4px rgba(107,226,209,0.2);
+	-moz-box-shadow: 0px 10px 40px 4px rgba(107,226,209,0.2);
+	box-shadow: 0px 10px 40px 4px rgba(107,226,209,0.2);
+}
+.countDown{
+	margin-top: 30px;
+	min-height: 40px;
+}
+.countDown,
+.countDown span{
+	font-size: 57px;
+	line-height: 34px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	position: relative;
+	display: inline-block;
+
+}
+.countDown .days:after,
+.countDown .hours:after,
+.countDown .minutes:after{
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 23px;
+	font-weight: 400;
+	display: block;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+}
+.countDown .days:after{
+	content: "days";
+}
+.countDown .hours:after{
+	content: "hours";
+}
+.countDown .minutes:after{
+	content: "minutes";
+}
+.topAppImage{
+	position: absolute;
+	background: url("../images/app-top-bg.png");
+	width: 780px;
+	right: 5%;
+	text-align: center;
+	background-position: center;
+}
+.topAppImage img{
+	margin-top: 150px;
+}
+.howItWorksAppPage{
+	margin-top: 150px;
+}
+
+.mediumTitle{
+	font-size: 38px;
+	line-height: 44px;
+	color: #464860;
+	font-weight: 700;
+}
+
+.howItWorksAppPageBox{
+	width: 1140px;
+	max-width: calc(100% - 40px);
+	height: 523px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(142,142,142,0.22);
+	background-color: #ffffff;
+	margin: 70px auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.howItWorksGraphic{
+	width: calc(100% - 460px);
+	position: relative;
+	height: 100%;
+}
+.howItWorksContent{
+	width: 460px;
+}
+.howItWorksList{
+	padding-left: 0;
+}
+.howItWorksList li{
+	list-style-type: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.listItemTitle{
+	font-size: 20px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.listItemText{
+	font-size: 16px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+.howItWorksAppPageBox .app-lines{
+	position: absolute;
+	bottom: -24px;
+	right: -22px;
+}
+.listItemNo{
+	font-size: 35px;
+	line-height: 21px;
+	color: #ccb8f4;
+	font-family: "Montserrat";
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 3px 3px #a2eedf;
+	width: 100px;
+}
+.listItemContent{
+	width: calc(100% - 100px);
+	margin-bottom: 15px;
+}
+.app-dots-1{
+	position: absolute;
+	right: 5%;
+	top: 125px;
+}
+.app-dots-2{
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+}
+.android-app{
+	position: absolute;
+	left: 62px;
+	top: 25px;
+}
+.app-iphone{
+	position: absolute;
+	bottom: 43px;
+	left: 285px;
+}
+.midCountDownApp{
+	position: relative;
+	height: 353px;
+	background-image: linear-gradient(131deg, #4f2d87 0%, #7542c9 100%);
+	color: #fff;
+	overflow: hidden;
+}
+.dots1_1{
+	position: absolute;
+	bottom: -85px;
+	left: -110px
+}
+.dots1_2{
+	position: absolute;
+	right: 100px;
+	top: -85px;
+}
+.midCountDownApp .topAppCountDownForm{
+	width: 720px;
+	max-width: 90%;
+	margin: auto;
+	height: 353px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: url("../images/bg-decoration.png");
+	background-position: center;
+	background-size: 100%;
+}
+.midCountDownApp .topAppForm{
+	width: 560px;
+	max-width: 90%;
+	margin: auto;
+}
+.midCountDownApp form{
+	max-width: 100%;
+}
+.midCountDownApp .topAppCountDownFormText{
+	margin-top: 40px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.bottomArticles{
+	margin-top: 150px;
+}
+.articleItem{
+	width: 494px;
+	max-width: calc(100% - 70px);
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(142,142,142,0.22);
+	background-color: #ffffff;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	vertical-align: top;
+}
+.articleItem:nth-child(even){
+	margin-top: 130px;
+}
+.articleImage{
+	background-color: #ffffff;
+	padding: 6px;
+}
+.articleTitle{
+	background: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.articleTitle h4{
+	font-size: 20px;
+	line-height: 32px;
+	color: #464860;
+	font-family: "Rubik";
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.articleDecoration{
+	position: absolute;
+	top: -35px;
+	right: -35px;
+	z-index: -5;
+}
+.articleSymbol{
+	position: absolute;
+	left: -30px;
+	bottom: -35px;
+}
+.bottomArticles{
+	text-align: center;
+}
+.articleItem:nth-child(even) .articleSymbol{
+	left: auto;
+	right: 5px;
+}
+.articleItem:nth-child(even) .articleDecoration{
+	top: auto;
+	bottom: -35px;
+	right: auto;
+	left: -35px;
+}
+.socialIconsContainer{
+	height: 0;
+	position: fixed;
+	top: calc(50vh - 125px);
+	margin-left: 4vw;
+	z-index: 99;
+}
+.socialIcons{
+	background-image: linear-gradient(131deg, #4f2d87 0%, #7542c9 100%);
+	color: #fff;
+	width: 45px;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.socialIcons a{
+	color: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	font-size: 18px;
+}
+.socialIcons a svg{
+	fill: #fff;
+	width: 20px;
+}
+.socialIcons a:hover svg{
+	fill: #40d8c2;
+}
+#header-socialmedia-icons{
+	display: none;
+}
+
+
+/*Rebeca start*/
+
+.benefits {
+	margin-top: 100px;
+	width: 100%;
+	height: 391px;
+	background-color: #f8f8ff;
+	display: flex;
+}
+.benefitTitle {
+	font-size: 20px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 700;
+}
+.benefitContent {
+	font-size: 16px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 400;
+}
+
+/*Rebeca end*/
+
+
+@media only screen and (max-width: 1600px) {
+	.topAppImage{
+		right: 0;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.topArea{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.topAppImage{
+		right: -5%;
+	}
+	.topTitle{
+		max-width: 50%;
+	}
+	.appPageTop .topText{
+		max-width: 50%;
+	}
+	.topAppCountDownForm{
+		max-width: 50%;
+	}
+	.sContainer{
+		max-width: 90%;
+	}
+	.socialIconsContainer{
+		margin-left: 15px;
+		display: none;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.topAppImage{
+		right: -10%;
+	}
+	.android-app{
+		left: 10px;
+	}
+	.app-iphone{
+		left: 200px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.topAppImage{
+		right: -15%;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.appPageTop{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.appPageTop .topText,
+	.appPageTop .topTitle{
+		max-width: 100%;
+	}
+	.appPageTop .sContainer{
+		max-width: 90%;
+		text-align: center;
+		position: static;
+		margin-top: 100px;
+	}
+	.topAppCountDownForm{
+		margin-top: 30px;
+	}
+	.topAppImage{
+		width: 650px;
+		max-width: 100%;
+		position: relative;
+		right: auto;
+		margin: 25px auto;
+		background-size: 650px;
+		background-repeat: no-repeat;
+	}
+	.appPageTop .topAreaBg{
+		min-height: initial;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	.feefo{
+		display: none;
+	}
+	.appPageTop .topText{
+		text-align: center;
+		width: 550px;
+		max-width: 100%;
+		margin: 20px auto;
+	}
+	.topAppCountDownForm{
+		width: 550px;
+		max-width: 100%;
+		margin: 55px auto;
+	}
+	.topAppImage img{
+		margin-top: 0;
+		margin-bottom: -150px;
+	}
+	.android-app{
+		left: -30%;
+	}
+	.app-iphone{
+		left: 14%;
+	}
+	.howItWorksGraphic{
+		width: calc(100% - 400px);
+	}
+	.howItWorksContent{
+		width: 400px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.listItemNo{
+		width: 80px;
+	}
+	.listItemContent{
+		width: calc(100% - 80px);
+	}
+}
+
+@media only screen and (max-width: 667px) {
+	.topTitle{
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.topText{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.topAppImage{
+		width: 500px;
+		background-size: 100%;
+	}
+	.topAppForm{
+		background: transparent;
+		height: auto;
+	}
+	.topAppFormInput{
+		border-radius: 6px;
+		height: 58px;
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		background: #fff;
+	}
+	.topAppFormSubmit{
+		width: 100%;
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.topAppForm{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.midCountDownApp .topAppCountDownFormText{
+		margin-bottom: 10px;
+	}
+	.articleTitle h4{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.articleSymbol img{
+		max-width: 40px;
+		max-height: 48px;
+	}
+	.articleSymbol{
+		
+		left: -10px;
+		bottom: -15px;
+	}
+	.articleItem:nth-child(even) .articleSymbol{
+
+	}
+	.howItWorksGraphic .app-dots-1,
+	.howItWorksGraphic .app-dots-2{
+		display: none;
+	}
+	.howItWorksAppPageBox{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		height: auto;
+		width: auto;
+	}
+	.howItWorksGraphic{
+		-webkit-order: 2;
+		-moz-order: 2;
+		-ms-order: 2;
+		-o-order: 2;
+		order: 2;
+		width: 100%;
+		height: auto;
+		padding-bottom: 35px;
+		text-align: center;
+	}
+	.howItWorksList li{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.listItemNo{
+		width: 100%;
+		text-align: left;
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+	.listItemContent{
+		width: 100%;
+	}
+	.android-app{
+		left: auto;
+		position: static;
+		margin-right: -10%;
+		max-width: 200px;
+	}
+	.app-iphone{
+		left: auto;
+		position: static;
+		margin-left: -10%;
+		max-width: 200px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.android-app{
+		margin-right: -15%;
+	}
+	.app-iphone{
+		margin-left: -15%;
+	}
+	.bottomArticles{
+		margin-top: 100px;
+	}
+	.articleItem:nth-child(even){
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.android-app{
+		max-width: 150px;
+	}
+	.app-iphone{
+		max-width: 150px;
+	}
+}
+
+
+/*Start How it works Page*/
+.topArea{
+	padding-left: 0;
+	padding-right: 0;
+}
+.howItWorksPageTop .topAreaBg {
+    min-height: 850px;
+    background-image: linear-gradient(0deg, #f3f3ff 0%, #fff 100%);
+    width: 100%;
+}
+.howItWorksPageTop .topContent{
+	color: #464860;
+	font-size: 56px;
+	line-height: 62px;
+	font-family: "Rubik";
+	font-weight: 700;
+}
+.howItWorksPageTop .feefo{
+	position: static;
+}
+.socialIcons{
+	background: transparent;
+}
+.howItWorksPage .howItWorksAppPageBox{
+	box-shadow: none;
+}
+.howItWorksPage .howItWorksList li{
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.howItWorksPage .listItemContent{
+	width: 100%;
+	margin-top: 18px;
+	margin-bottom: 28px;
+}
+.howItWorksPage .listItemNo{
+	width: auto;
+	text-align: left;
+}
+.howItWorksPage .howItWorksContent{
+	width: 400px;
+}
+.genericItemsList{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+.genericListItem{
+	width: 25%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.genericListItemText{
+	font-size: 15px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+	width: calc(100% - 90px);
+}
+.genericListItemIcon{
+	width: 90px;
+	text-align: center;
+}
+.genericListItem{
+	margin-bottom: 25px;
+}
+
+/*End How it works Page*/

@@ -1,0 +1,43 @@
+#site-menu.mp-site-menu .navbar-nav{
+    padding-right: 160px;
+    height: 110px;
+}
+.navbar.navbar-default{
+    margin-top: 0;
+}
+.mp-site-header-nav{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#site-menu.mp-site-menu .navbar-nav li[id*="RptNav_liNavIte"]{
+    order: 1;
+    font-size: 16px;
+    line-height: 48px;
+    color: #464860;
+    font-family: "Montserrat";
+}
+#site-menu.mp-site-menu .navbar-nav li{
+    width: 15%;
+    text-align: center;
+}
+#site-menu.mp-site-menu .navbar-nav li[id*="RptNav_liNavIte"] a{
+    font-weight: 500;
+}
+#site-menu.mp-site-menu .navbar-nav li[style="text-align:center"]{
+    order: 0;
+    margin-right: 8vw;
+}
+#site-menu.mp-site-menu .navbar-nav li[style="text-align:center"] img{
+    width: 80px;
+}
+.mp-site-header-nav{
+
+}
+.mp-site-header-nav .mp-site-headeritem{
+    position: absolute;
+    top: 45px;
+}
+.cms-module{
+    padding-top: 0;
+    padding-bottom: 0;
+}

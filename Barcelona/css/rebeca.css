@@ -1,0 +1,1797 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Rubik:400,500,700&display=swap');
+
+ 
+body{
+    width:100%;
+    margin: auto;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+.mainContent, .mainContent *{
+	font-family: 'Rubik', sans-serif;
+}
+.topArea{
+    margin:auto;
+	width: calc(100% - 100px);
+	max-width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 150px;
+	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 740px;
+}
+.topAreaWithImage{
+	padding-bottom: 0;
+}
+.topAreaImage{
+	height: 740px;
+	width: 100%;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sContainer{
+	width: 1140px;
+	margin: auto;
+}
+.topContent{
+	position: absolute;
+	left: 0;
+	right: 0;
+	color: #fff;
+	font-family: "Rubik";
+}
+.topTitle{
+	font-size: 56px;
+	line-height: 62px;
+	max-width: 660px;
+	margin-top: 0;
+}
+.topText{
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 25px;
+	line-height: 1.5;
+}
+.buttonsContainer{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.mswButton{
+	min-width: 210px;
+	height: 58px;
+	line-height: 58px;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 10px;
+	border-radius: 10px;
+	font-weight: 500;
+	text-decoration: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	transition: box-shadow .25s linear;
+}
+.mswButton svg{
+	width: 25px;
+	height: 25px;
+	fill: #fff;
+	margin-right: 8px;
+}
+.topArea .mswButton{
+	margin-bottom: 15px;
+}
+.mswButton:hover{
+	color: #fff;
+}
+.purpleBg{
+	background: #4f2d87;
+}
+.purpleBg:hover{
+	box-shadow: 5px 10px 15px rgba(113, 100, 155, 0.4);
+}
+.cyanBg{
+	background: #40d8c2;
+}
+.cyanBg:hover{
+	box-shadow: 5px 10px 15px rgba(64, 216, 194, 0.4);
+}
+
+.advantagesWrap{
+	margin: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+	width: 1140px;
+	height: 183px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(142,142,142,0.22);
+	background-color: #ffffff;
+	margin-top: -40px;
+	position: relative;
+	z-index: 9;
+}
+.advantageItem {
+    min-width: 190px;
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    height: 183px;
+}
+.advImage{
+	height: 120px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+}
+.advImage img{
+	width: 55px;
+}
+.advText{
+	height: 63px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+.appPageTop .topAreaBg{
+	background-image: linear-gradient(131deg, #4f2d87 0%, #7542c9 100%);
+	min-height: 740px;
+	width: 100%;
+	max-width: calc(100% - 30px);
+	margin: auto;
+}
+.appPageTop .topText{
+	font-size: 18px;
+	line-height: 26px;
+	text-align: justify;
+	max-width: 540px;
+}
+.topAppCountDownForm{
+	margin-top: 70px;
+	max-width: 520px;
+}
+.topAppCountDownFormText{
+	font-size: 15px;
+	line-height: 26px;
+}
+.topAppForm{
+	
+	height: 64px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(75,33,144,0.22);
+	background-color: #ffffff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+.topAppFormInputContainer{
+	width: calc(100% - 230px);
+}
+.topAppFormInput{
+	width: 100%;
+	outline: none;
+	height: 54px;
+	border: none;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #9a9a9a;
+	background: #fff;
+}
+.topAppFormSubmitContainer{
+
+}
+.topAppFormSubmit{
+	border: none;
+	margin-right: 3px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.topAppFormSubmit:hover{
+	-webkit-box-shadow: 0px 10px 40px 4px rgba(107,226,209,0.2);
+	-moz-box-shadow: 0px 10px 40px 4px rgba(107,226,209,0.2);
+	box-shadow: 0px 10px 40px 4px rgba(107,226,209,0.2);
+}
+.countDown{
+	margin-top: 30px;
+	min-height: 40px;
+}
+.countDown,
+.countDown span{
+	font-size: 57px;
+	line-height: 34px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	position: relative;
+	display: inline-block;
+
+}
+.countDown .days:after,
+.countDown .hours:after,
+.countDown .minutes:after{
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 23px;
+	font-weight: 400;
+	display: block;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+}
+.countDown .days:after{
+	content: "days";
+}
+.countDown .hours:after{
+	content: "hours";
+}
+.countDown .minutes:after{
+	content: "minutes";
+}
+.topAppImage{
+	position: absolute;
+	background: url("../images/app-top-bg.png");
+	width: 780px;
+	right: 5%;
+	text-align: center;
+	background-position: center;
+}
+.topAppImage img{
+	margin-top: 150px;
+}
+.howItWorksAppPage{
+	
+}
+
+.mediumTitle{
+	font-size: 38px;
+	line-height: 44px;
+	color: #464860;
+	font-weight: 700;
+}
+
+.howItWorksAppPageBox{
+	width: 1140px;
+	max-width: calc(100% - 40px);
+	height: 523px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(142,142,142,0.22);
+	background-color: #ffffff;
+	margin: 70px auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.howItWorksGraphic{
+	width: calc(100% - 460px);
+	position: relative;
+	height: 100%;
+}
+.howItWorksContent{
+	width: 460px;
+}
+.howItWorksList{
+	padding-left: 0;
+}
+.howItWorksList li{
+	list-style-type: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.listItemTitle{
+	font-size: 20px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.listItemText{
+	font-size: 16px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+.howItWorksAppPageBox .app-lines{
+	position: absolute;
+	bottom: -24px;
+	right: -22px;
+}
+.listItemNo{
+	font-size: 35px;
+	line-height: 21px;
+	color: #ccb8f4;
+	font-family: "Montserrat";
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 3px 3px #a2eedf;
+	width: 100px;
+}
+.listItemContent{
+	width: calc(100% - 100px);
+	margin-bottom: 15px;
+}
+.app-dots-1{
+	position: absolute;
+	right: 5%;
+	top: 125px;
+}
+.app-dots-2{
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+}
+.android-app{
+	position: absolute;
+	left: 62px;
+	top: 25px;
+}
+.app-iphone{
+	position: absolute;
+	bottom: 43px;
+	left: 285px;
+}
+.midCountDownApp{
+	position: relative;
+	height: 353px;
+	background-image: linear-gradient(131deg, #4f2d87 0%, #7542c9 100%);
+	color: #fff;
+	overflow: hidden;
+}
+.dots1_1{
+	position: absolute;
+	bottom: -85px;
+	left: -110px
+}
+.dots1_2{
+	position: absolute;
+	right: 100px;
+	top: -85px;
+}
+.midCountDownApp .topAppCountDownForm{
+	width: 720px;
+	max-width: 90%;
+	margin: auto;
+	height: 353px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: url("../images/bg-decoration.png");
+	background-position: center;
+	background-size: 100%;
+}
+.midCountDownApp .topAppForm{
+	width: 560px;
+	max-width: 90%;
+	margin: auto;
+}
+.midCountDownApp form{
+	max-width: 100%;
+}
+.midCountDownApp .topAppCountDownFormText{
+	margin-top: 40px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.bottomArticles{
+	margin-top: 150px;
+}
+.articleItem{
+	width: 494px;
+	max-width: calc(100% - 70px);
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(142,142,142,0.22);
+	background-color: #ffffff;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	vertical-align: top;
+}
+.articleItem:nth-child(even){
+	margin-top: 130px;
+}
+.articleImage{
+	background-color: #ffffff;
+	padding: 6px;
+}
+.articleTitle{
+	background: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.articleTitle h4{
+	font-size: 20px;
+	line-height: 32px;
+	color: #464860;
+	font-family: "Rubik";
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.articleDecoration{
+	position: absolute;
+	top: -35px;
+	right: -35px;
+	z-index: -5;
+}
+.articleSymbol{
+	position: absolute;
+	left: -30px;
+	bottom: -35px;
+}
+.bottomArticles{
+	text-align: center;
+}
+.articleItem:nth-child(even) .articleSymbol{
+	left: auto;
+	right: 5px;
+}
+.articleItem:nth-child(even) .articleDecoration{
+	top: auto;
+	bottom: -35px;
+	right: auto;
+	left: -35px;
+}
+.socialIconsContainer{
+	height: 0;
+	position: fixed;
+	top: calc(50vh - 125px);
+	margin-left: 4vw;
+	z-index: 99;
+}
+.socialIcons{
+	background-image: linear-gradient(131deg, #4f2d87 0%, #7542c9 100%);
+	color: #fff;
+	width: 45px;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.socialIcons a{
+	color: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	font-size: 18px;
+}
+.socialIcons a svg{
+	fill: #fff;
+	width: 20px;
+}
+.socialIcons a:hover svg{
+	fill: #40d8c2;
+}
+#header-socialmedia-icons{
+	display: none;
+}
+
+
+/*Rebeca start*/
+.benefitsItems {
+    display: flex;
+    justify-content: space-around;
+    padding: 75px 0 75px 0;
+}
+.benefit {
+    width: 33.33%;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.benefitTitle {
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.benefitContent {
+	font-size: 16px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+.benefitImage {
+    height: 63px;
+}
+.sectionTitle {
+    font-size: 38px;
+	line-height: 1.5;
+	color: #464860;
+	font-family: "Rubik";
+	font-weight: 500;
+	text-align: center;
+}
+.apiAverage {
+    border-bottom: 1px solid #464860;
+}
+.videoContainer{
+	width: 740px;
+	max-width: calc(100% - 50px);
+	margin: auto;
+	margin-top: 200px;
+	position: relative;
+	margin-bottom: 120px;
+}
+.videoContainer:after{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 3px;
+	height: 58px;
+	bottom: 100%;
+	left: calc(50% - 5px);
+	background: #40d8c2;
+}
+.videoContainer:before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 3px;
+	height: 36px;
+	bottom: 100%;
+	right: calc(50% - 5px);
+	background: #464860;
+}
+.videoContainer stream{
+	border-radius: 10px;
+	overflow: hidden;
+}
+.video-dots-1{
+	position: absolute;
+	bottom: -55px;
+	left: -100px;
+}
+.video-dots-2{
+	position: absolute;
+	top: -55px;
+	right: -100px;
+}
+.holidayContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.holidayItem {
+    width: 555px;
+	border-radius: 6px;
+	background-color: #f8f8ff;
+	margin-bottom: 25px;
+	text-decoration: none;
+}
+.holidayItem:hover {
+    -webkit-box-shadow: 0px 20px 15px -10px rgba(79,45,135,0.2);
+    -moz-box-shadow: 0px 20px 15px -10px rgba(79,45,135,0.2);
+    box-shadow: 0px 20px 15px -10px rgba(79,45,135,0.2);
+    transition: box-shadow .25s linear;
+}
+.holidayItem:hover .readMore {
+    color: #4f2d87;
+}
+.holidayLinkContent {
+    padding: 10px 28px 30px 28px;
+    min-height: 140px;
+}
+.holidayImage {
+    width: 100%;
+    height: 350px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+.linkContentTitle {
+    font-size: 20px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 700;
+}
+.linkContentText {
+    font-size: 16px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 400;
+}
+.readMore {
+    font-size: 14px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 700;
+float: right;
+}
+.moreImage {
+  width: 1350px;
+  margin-top: 75px;
+  margin-bottom: 110px;
+  max-width: 100%;
+}
+.features {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-bottom: 270px;
+}
+.dotsPurple {
+    margin-left: -75px;
+    position: absolute;
+    bottom: 0;
+}
+.featuresContainer{
+	position: relative;
+	margin-bottom: 150px;
+}
+.featureItem {
+    width: 440px;
+    max-width: 100%;
+}
+.featureItem a {
+    margin-right: 25px;
+}
+.featureTitle {
+    font-size: 20px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 700;
+}
+.featureContent {
+    font-size: 16px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 400;
+}
+.featureImages {
+	position: absolute;
+	width: 1050px;
+	left: 470px;
+	top: 0;
+}
+.abs {
+    position: absolute;
+}
+
+.z-2 {
+    z-index: 0;
+    top: 50px;
+    right: 550px;
+}
+.z-1 {
+    z-index: 0;
+    top: -110px;
+    right: 500px;
+}
+.z1 {
+    z-index: 1;
+    top: 240px;
+    right: 230px;
+}
+.colorz-1 {
+    width: 630px;
+height: 538px;
+background-color: #f8f8ff;
+z-index: -2;
+right: 0;
+}
+.notBooking {
+    position: relative;
+    background-color: #f8f8ff;
+}
+
+.booking {
+    position: relative;
+    padding-top: 80px;
+}
+.navBooking {
+    display: flex;
+    height: 43px;
+	border-radius: 21px;
+}
+.navBookingItem {
+    width: 33.33%;
+    font-size: 16px;
+	line-height: 44px;
+	color: #464860;
+	font-family: "Rubik";
+	font-weight: 400;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	text-decoration: none;
+	background: #FFF;
+}
+.navBookingItem:first-child{
+	border-top-left-radius: 21px;
+	border-bottom-left-radius: 21px;
+}
+.navBookingItem:last-child{
+	border-top-right-radius: 21px;
+	border-bottom-right-radius: 21px;
+}
+.navBookingItem:hover {
+    border: 1px solid #4f2d87;
+    color: #4f2d87;
+}
+.navBookingItem.active {
+    background-color: #f2eafe;
+	border: 1px solid #4f2d87;
+	color: #4f2d87;
+}
+.contentBooking{
+	display: none;
+	width: 100%;
+	padding-left: 60px;
+	position: relative;
+	z-index: 2;
+}
+.bookingPhotos .straight-lines{
+	position: absolute;
+	top: 130px;
+	z-index: 1;
+}
+.contentBooking.active{
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+#tab1 {
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+}
+#tab3 {
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+#tab2 {
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+.bookingPhotos {
+    height: 490px;
+    width: 100%;
+    padding: 60px 0 80px 0;
+    position: relative;
+}
+.straight-lines {
+    z-index: -1;
+    top: 260px;
+}
+.bookPhoto {
+	z-index: 1;
+	left: 68px;
+}
+.cyanDots {
+	z-index: -1;
+	top: 510px;
+	left: 460px;
+}
+.bookingText {
+    background-color: #fff;
+    z-index: 1;
+    font-size: 16px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+	padding: 35px;
+	box-sizing: border-box; 
+	border-radius: 6px;
+	box-shadow: 0px 5px 54px rgba(142,142,142,0.22);
+	width: 620px;
+	margin-left: -90px;
+	position: relative;
+}
+.bookPhotoContainer{
+	width: 520px;
+	height: 470px;
+	background-size: cover;
+	border-radius: 10px;
+	position: relative;
+}
+.bookPhotoContainer:after{
+	content: "";
+	display: block;
+	background: url(/assets/userfiles/app-dots-1.png);
+	background-size: 100%;
+	width: 156px;
+	height: 158px;
+	bottom: -20px;
+	right: -20px;
+	position: absolute;
+	z-index: -1;
+}
+.customersOpinion{
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+.partying {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.press {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+}
+.press a{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.press img {
+    filter: grayscale(1) opacity(0.2);
+    max-height: 60px;
+}
+.press img:hover {
+    filter: none;
+}
+.problem-solved {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+}
+.solvedImg {
+    display: block;
+}
+.solvedContent {
+    width: 555px;
+    margin-top: 45px;
+}
+.solvedTitle {
+    font-size: 20px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+.solvedText {
+    font-size: 16px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+.holiday-handled {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.handlePhoto {
+    width: 360px;
+    height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.instagramArea{
+	width: 100%;
+}
+.follow-us {
+    width: 265px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.follow-us span {
+    display: block;
+    font-size: 32px;
+line-height: 38px;
+color: #6be2d1;
+font-family: "Rubik";
+font-weight: 700;
+margin-bottom: 40px;
+}
+.follow-us a {
+    font-size: 16px;
+line-height: 15px;
+color: #4f2d87;
+font-family: "Rubik";
+font-weight: 700;
+text-align: center;
+width: 262px;
+height: 60px;
+border-radius: 6px;
+background-color: #f2eafe;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+.convinced {
+    width: 100%;
+    position: relative;
+}
+.convinced:after{
+	content: "";
+	display: block;
+	height: 370px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #f8f8ff;
+	z-index: -1;
+}
+.convincedContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 150px;
+}
+.bgCoverDown {
+    height: 350px;
+    bottom: 0;
+}
+.bigPhoneImages {
+    position: relative;
+    max-width: calc(100% - 500px);
+}
+.phoneDots {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    margin-left: 25px;
+}
+.bigPhone {
+    margin-left: 75px;
+    position: relative;
+    z-index: 1;
+    max-width: calc(100% - 85px);
+}
+.contact {
+    width: 480px;
+    margin-top: 150px;
+}
+.sectionTitle {
+	color: #464860;
+	font-family: "Rubik";
+	font-weight: 500;
+	text-align: center;
+    margin-bottom: 50px;
+}
+.subtitle {
+    font-size: 20px;
+line-height: 24px;
+color: #464860;
+font-family: "Montserrat";
+font-weight: 400;
+    margin-bottom: 50px;
+}
+#leftTitle {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 5px 10px 15px rgba(113, 100, 155, 0.4);
+}
+.messBtn {
+    background-color: #512789;
+    float: left;
+    margin-right: 50px;
+}
+.messBtn:hover {
+    background-color: #482874;
+    box-shadow: 10px 15px 20px rgba(113, 100, 155, 0.4);
+}
+.whatAppBtn {
+    background-color: #6be1d1;
+}
+.whatAppBtn:hover {
+    background-color: #60c2b5;
+    box-shadow: 10px 15px 20px rgba(113, 100, 155, 0.4);
+}
+.button img {
+    margin-right: 10px;
+}
+.topAreaWithImage .feefo{
+	position: absolute;
+	top: -90px;
+	right: 0px;
+}
+.benefitsMain{
+	height: auto;
+	background-color: #f8f8ff;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.bookingTextTitle{
+	display: none;
+}
+.moreSunMobile, .morePartyingMobile{
+	display: none;
+}
+/*Rebeca end*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+	.topAppImage{
+		right: 0;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	.topArea{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.topAppImage{
+		right: -5%;
+	}
+	.topTitle{
+		max-width: 50%;
+	}
+	.appPageTop .topText{
+		max-width: 50%;
+	}
+	.topAppCountDownForm{
+		max-width: 50%;
+	}
+	.sContainer{
+		max-width: 90%;
+	}
+	.socialIconsContainer{
+		margin-left: 15px;
+		/*display: none;*/
+    }
+    
+    /*Rebeca*/
+
+    .features {
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+   
+    .dotsPurple {
+        display: none;
+    }
+    .colorz-1 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1280px) {
+	.topAppImage{
+		right: -10%;
+	}
+	.android-app{
+		left: 10px;
+	}
+	.app-iphone{
+		left: 200px;
+    }
+    
+    /*Rebeca*/
+    .moreImage {
+        max-width: 991px;
+    }
+    .moreImage img {
+        max-width: 100%;
+    }
+    .advantagesWrap{
+    	height: auto;
+    	-webkit-flex-wrap: wrap;
+    	-moz-flex-wrap: wrap;
+    	-ms-flex-wrap: wrap;
+    	-o-flex-wrap: wrap;
+    	flex-wrap: wrap;
+    	max-width: calc(90% - 60px);
+    }
+   	.advantageItem{
+   		width: 33%;
+   		min-width: initial;
+   	}
+	.holidayItem{
+		width: 48%;
+		max-width: 555px;
+	}
+	.featureImages{
+		left: 400px;
+	}
+	.featureImages .z-2{
+		width: 400px;
+	}
+	.featureImages .z-1{
+		width: 390px;
+	}
+	.featureImages .z1{
+		width: 380px;
+	}
+	.bookingText{
+		width: calc(100% - 500px);
+	}
+	.navBookingItem{
+		font-size: 13px;
+	}
+	.partners .sContainer{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-align-items: center;
+		align-items: center;
+		justify-content: center;
+	}
+	.partners .sContainer a{
+		padding-left: 25px;
+		padding-right: 25px;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.topAppImage{
+		right: -15%;
+	}
+	.topTitle{
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	.topText{
+		text-align: center;
+		font-size: 20px;
+	}
+	.topArea .buttonsContainer{
+		text-align: center;
+		justify-content: center;
+	}
+	.topContent{
+		top: 50px;
+	}
+	.topArea .feefo{
+		position: static;
+		margin: 40px auto;
+		text-align: center;
+	}
+	.mswButton{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.benefits{
+		height: auto;
+	}
+	.benefitsItems{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.benefit{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.navBooking{
+		display: none;
+	}
+	.bookingPhotos .straight-lines{
+		display: none;
+	}
+	.contentBooking{
+		padding-left: 0;
+		max-width: 768px;
+		margin: 0 auto 50px;
+		display: block !important;
+	}
+	.bookingPhotos{
+		height: auto;
+		padding-top: 0;
+	}
+	.bookingText{
+		width: calc(100% - 50px);
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -80px;
+		text-align: center;
+	}
+	.bookPhotoContainer{
+		width: 100%;
+	}
+	.bookPhotoContainer:after{
+		display: none;
+	}
+	.bookingTextTitle{
+		display: block;
+		font-size: 20px;
+		margin-top: 20px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	.convincedContent{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+	.convincedContent .contact{
+		-webkit-order: 0;
+		-moz-order: 0;
+		-ms-order: 0;
+		-o-order: 0;
+		order: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 60px;
+	}
+	.convincedContent .contact #leftTitle{
+		text-align: center;
+	}
+	.convincedContent .bigPhoneImages{
+		-webkit-order: 1;
+		-moz-order: 1;
+		-ms-order: 1;
+		-o-order: 1;
+		order: 1;
+		text-align: center;
+		max-width: 90%;
+		width: 100%;
+		margin: auto;
+	}
+	.convincedContent .buttonsContainer{
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.socialIconsContainer{
+		display: none;
+	}
+	.appPageTop{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.appPageTop .topText,
+	.appPageTop .topTitle{
+		max-width: 100%;
+	}
+	.appPageTop .sContainer{
+		max-width: 90%;
+		text-align: center;
+		position: static;
+		margin-top: 100px;
+	}
+	.topAppCountDownForm{
+		margin-top: 30px;
+	}
+	.topAppImage{
+		width: 650px;
+		max-width: 100%;
+		position: relative;
+		right: auto;
+		margin: 25px auto;
+		background-size: 650px;
+		background-repeat: no-repeat;
+	}
+	.appPageTop .topAreaBg{
+		min-height: initial;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	.topAreaWithImage .feefo{
+		display: block;
+	}
+	.appPageTop .topText{
+		text-align: center;
+		width: 550px;
+		max-width: 100%;
+		margin: 20px auto;
+	}
+	.topAppCountDownForm{
+		width: 550px;
+		max-width: 100%;
+		margin: 55px auto;
+	}
+	.topAppImage img{
+		margin-top: 0;
+		margin-bottom: -150px;
+	}
+	.android-app{
+		left: -30%;
+	}
+	.app-iphone{
+		left: 14%;
+	}
+	.howItWorksGraphic{
+		width: calc(100% - 400px);
+	}
+	.howItWorksContent{
+		width: 400px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.listItemNo{
+		width: 80px;
+	}
+	.listItemContent{
+		width: calc(100% - 80px);
+    }
+     /*Rebeca*/
+
+     .sContainer {
+         max-width: 90%;
+     }
+     .advantagesWrap {
+     	width: calc(100% - 30px);
+        max-width: 664px;
+        flex-wrap: wrap;
+    }
+    .benefits {
+        width: 100%;
+    }
+    .benefit {
+        width: 100%;
+        padding:0;
+        margin-bottom: 40px;
+    }
+    .benefitsItems {
+        display: block;
+    }
+    .features{
+    	padding-bottom: 150px;
+    }
+   
+    
+
+    /*Rebeca*/
+
+    .featureImages{
+    	left: 350px;
+    }
+    .featureImages .z-2{
+    	width: 350px;
+    }
+    .featureImages .z-1{
+    	width: 340px;
+    }
+    .featureImages .z1{
+    	width: 350px;
+    	right: 320px;
+    }
+    .video-dots-2{
+    	display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+	.advantageItem{
+		width: 50%;
+	}
+	.advantagesWrap{
+		width: calc(100% - 140px);
+	}
+	.featureImages{
+		left: 280px;
+	}
+}
+@media only screen and (max-width: 667px) {
+	.partying{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.moreImage{
+		margin-bottom: 50px;
+	}
+	.topTitle{
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.topText{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.topAppImage{
+		width: 500px;
+		background-size: 100%;
+	}
+	.topAppForm{
+		background: transparent;
+		height: auto;
+	}
+	.topAppFormInput{
+		border-radius: 6px;
+		height: 58px;
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		background: #fff;
+	}
+	.topAppFormSubmit{
+		width: 100%;
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.topAppForm{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.midCountDownApp .topAppCountDownFormText{
+		margin-bottom: 10px;
+	}
+	.articleTitle h4{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.articleSymbol img{
+		max-width: 40px;
+		max-height: 48px;
+	}
+	.articleSymbol{
+		
+		left: -10px;
+		bottom: -15px;
+	}
+	.articleItem:nth-child(even) .articleSymbol{
+
+	}
+	.howItWorksGraphic .app-dots-1,
+	.howItWorksGraphic .app-dots-2{
+		display: none;
+	}
+	.howItWorksAppPageBox{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		height: auto;
+		width: auto;
+	}
+	.howItWorksGraphic{
+		-webkit-order: 2;
+		-moz-order: 2;
+		-ms-order: 2;
+		-o-order: 2;
+		order: 2;
+		width: 100%;
+		height: auto;
+		padding-bottom: 35px;
+		text-align: center;
+	}
+	.howItWorksList li{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.listItemNo{
+		width: 100%;
+		text-align: left;
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+	.listItemContent{
+		width: 100%;
+	}
+	.android-app{
+		left: auto;
+		position: static;
+		margin-right: -10%;
+		max-width: 200px;
+	}
+	.app-iphone{
+		left: auto;
+		position: static;
+		margin-left: -10%;
+		max-width: 200px;
+    }
+    .advantageItem{
+    	width: 100%;
+    	height: auto;
+    	-ms-align-items: center;
+    	align-items: center;
+    }
+   	.advImage{
+   		width: 40px;
+   		height: 50px;
+   	}
+   	.advImage img{
+   		width: 25px;
+   	}
+   	.advText{
+   		width: calc(100% - 60px);
+   		text-align: left;
+   		height: 50px;
+   		display: -webkit-flex;
+   		display: -moz-flex;
+   		display: -ms-flex;
+   		display: -o-flex;
+   		display: flex;
+   		-ms-align-items: center;
+   		align-items: center;
+   		line-height: 1.2;
+   		padding-left: 10px;
+   	}
+   	.advText br{
+   		display: none;
+   	}
+   	.bigPhoneImages .phoneDots{
+   		display: none;
+   	}
+   	.bigPhoneImages .bigPhone{
+   		margin-left: 0;
+   	}
+   	.convincedContent .mswButton{
+   		margin-bottom: 20px;
+   	}
+   	.convinced:after{
+   		height: 50vw;
+   	}
+   	.convincedContent .bigPhoneImages{
+   		max-width: 100%;
+   	}
+   	.holidayItem{
+   		width: 100%;
+   		max-width: 100%;
+   	}
+   	.notBooking .sContainer{
+		width: 100%;
+		max-width: 100%;
+   	}
+   	.bookingText{
+   		width: 100%;
+   	}
+   	.bookPhotoContainer{
+   		border-radius: 0;
+   	}
+   	.topAreaWithImage{
+   		width: calc(100% - 30px);
+   	}
+   	.advantagesWrap{
+   		width: calc(100% - 60px);
+   	}
+   	.videoContainer{
+   		margin-top: 150px;
+   		max-width: calc(100% - 30px);
+   	}
+   	.moreSunDesktop, .morePartyingDesktop{
+   		display: none;
+   	}
+   	.moreSunMobile, .morePartyingMobile{
+   		display: inline;
+   	}
+   	.moreImage{
+   		text-align: center;
+   	}
+}
+@media only screen and (max-width: 400px) {
+	.android-app{
+		margin-right: -15%;
+	}
+	.app-iphone{
+		margin-left: -15%;
+	}
+	.bottomArticles{
+		margin-top: 100px;
+	}
+	.articleItem:nth-child(even){
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.android-app{
+		max-width: 150px;
+	}
+	.app-iphone{
+		max-width: 150px;
+	}
+}
+
+
+
+
+
+/*Start How it works Page*/
+.topArea{
+	padding-left: 0;
+	padding-right: 0;
+}
+.howItWorksPageTop .topAreaBg {
+    min-height: 850px;
+    background-image: linear-gradient(0deg, #f3f3ff 0%, #fff 100%);
+    width: 100%;
+}
+.howItWorksPageTop .topContent{
+	color: #464860;
+	font-size: 56px;
+	line-height: 62px;
+	font-family: "Rubik";
+	font-weight: 700;
+}
+.howItWorksPageTop .feefo{
+	position: static;
+}
+.socialIcons{
+	background: transparent;
+}
+.howItWorksPage .howItWorksAppPageBox{
+	box-shadow: none;
+}
+.howItWorksPage .howItWorksList li{
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.howItWorksPage .listItemContent{
+	width: 100%;
+	margin-top: 18px;
+	margin-bottom: 28px;
+}
+.howItWorksPage .listItemNo{
+	width: auto;
+	text-align: left;
+}
+.howItWorksPage .howItWorksContent{
+	width: 400px;
+}
+.genericItemsList{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+.genericListItem{
+	width: 25%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.genericListItemText{
+	font-size: 15px;
+	line-height: 24px;
+	color: #464860;
+	font-family: "Montserrat";
+	font-weight: 400;
+	width: calc(100% - 90px);
+}
+.genericListItemIcon{
+	width: 90px;
+	text-align: center;
+}
+.genericListItem{
+	margin-bottom: 25px;
+}
+
+/*End How it works Page*/
